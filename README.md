@@ -8,12 +8,12 @@ Criar uma **base de dados (dataset)** para o treinamento de um algoritmo de **In
 
 ### Requisitos:
 
-- Criar **pelo menos duas classes** distintas.
-- Cada classe deve conter **no mínimo 100 imagens**.
+- Criar pelo menos duas classes distintas.
+- Cada classe deve conter no mínimo 100 imagens.
 - As imagens podem ser:
   - Capturadas por câmera (ex: celular)
   - Baixadas da internet
-- As imagens devem ter **qualidade mínima de 400x400 pixels**.
+- As imagens devem ter qualidade mínima de 400x400 pixels.
 - Exemplo sugerido: 
   - Classe 1: Tomate verde 🍏
   - Classe 2: Tomate maduro 🍅
