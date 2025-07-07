@@ -31,11 +31,12 @@ dataset/
 │   ├── imagem2.jpg
 │   └── ...
 
+
 📸 Dataset em Desenvolvimento
 O dataset escolhido para esta atividade está em construção. Em breve será adicionado ao repositório com as imagens organizadas por classes.
 
 
-# 📌 Links Úteis para o aprendizado
+## 📌 **Links Úteis para o aprendizado**
 
 Introdução para à Computação Bioinspirada:
 https://homepages.dcc.ufmg.br/~glpappa/cverao/CursoVerao-Parte1.pdf 
