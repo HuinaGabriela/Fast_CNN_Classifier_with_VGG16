@@ -18,9 +18,8 @@ Criar uma **base de dados (dataset)** para o treinamento de um algoritmo de **In
   - Classe 1: gatos 🐱
   - Classe 2: cachorros 🐶
 
-## 🗂 Estrutura Esperada do Dataset
-
-```bash
+🗂 Estrutura Esperada do Dataset
+```
 dataset/
 ├── classe_1/
 │   ├── imagem1.jpg
@@ -30,22 +29,20 @@ dataset/
 │   ├── imagem1.jpg
 │   ├── imagem2.jpg
 │   └── ...
+```
+---
 
+## 📌 Links Úteis
 
-📸 Dataset em Desenvolvimento
-O dataset escolhido para esta atividade está em construção. Em breve será adicionado ao repositório com as imagens organizadas por classes.
+📘 **Introdução para à Computação Bioinspirada:**
+- https://homepages.dcc.ufmg.br/~glpappa/cverao/CursoVerao-Parte1.pdf  
+- https://www.inf.ufpr.br/aurora/disciplinas/topicosia2/aulas/aula1.pdf  
+- https://edisciplinas.usp.br/pluginfile.php/4256863/mod_resource/content/1/cb_3_ce_ag_1.pdf  
 
+🧬 **Algoritmos Genéticos:**
+- https://www.inf.ufsc.br/~mauro.roisenberg/ine5377/Cursos-ICA/CE-intro_apost.pdf  
 
-## 📌 **Links Úteis para o aprendizado**
+🧠 **Redes Neurais Artificiais:**
+- https://www.inf.ufsc.br/~j.barreto/tutoriais/Survey.pdf
 
-Introdução para à Computação Bioinspirada:
-https://homepages.dcc.ufmg.br/~glpappa/cverao/CursoVerao-Parte1.pdf 
-https://www.inf.ufpr.br/aurora/disciplinas/topicosia2/aulas/aula1.pdf 
-https://edisciplinas.usp.br/pluginfile.php/4256863/mod_resource/content/1/cb_3_ce_ag_1.pdf 
-
-Algoritmos Genéticos:
-https://www.inf.ufsc.br/~mauro.roisenberg/ine5377/Cursos-ICA/CE-intro_apost.pdf 
-
-Redes Neurais Artificiais:
-https://www.inf.ufsc.br/~j.barreto/tutoriais/Survey.pdf
 
