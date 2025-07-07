@@ -1,6 +1,6 @@
 # 📊 Criação de Dataset para Treinamento de Redes Neurais
 
-Este repositório faz parte das atividades do **Bootcamp de Machine Learning** e tem como objetivo a **criação de um dataset personalizado**, que será utilizado ao longo da trilha em diferentes projetos de aprendizado de máquina.
+Este repositório faz parte das atividades do **Bootcamp de Machine Learning** e tem como objetivo primeiramente a **criação de um dataset personalizado**, que será utilizado ao longo da trilha em diferentes projetos de aprendizado de máquina.
 
 ## 🧠 Atividade Proposta
 
@@ -23,7 +23,7 @@ Criar uma **base de dados (dataset)** para o treinamento de um algoritmo de **In
   - Celebridades ou personagens 🎬
 
 ## 🗂 Estrutura Esperada do Dataset
-'''
+
 ```bash
 dataset/
 ├── classe_1/
@@ -34,4 +34,6 @@ dataset/
 │   ├── imagem1.jpg
 │   ├── imagem2.jpg
 │   └── ...
-'''
+
+📸 Dataset em Desenvolvimento
+O dataset escolhido para esta atividade está em construção. Em breve será adicionado ao repositório com as imagens organizadas por classes.
