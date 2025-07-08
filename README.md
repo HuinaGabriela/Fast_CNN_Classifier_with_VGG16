@@ -15,8 +15,8 @@ Criar uma **base de dados (dataset)** para o treinamento de um algoritmo de **In
   - Baixadas da internet
 - As imagens devem ter qualidade mínima de 400x400 pixels.
 - Exemplo utilizado neste projeto: 
-  - Classes 1: gatos 🐱
-  - Classes 2: cachorros 🐶
+  - Classe1: gatos 🐱
+  - Classe2: cachorros 🐶
 
 🗂 Estrutura Esperada do Dataset
 ```
