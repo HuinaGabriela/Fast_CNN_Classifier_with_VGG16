@@ -1,4 +1,5 @@
-# 📊 Criação de Dataset para Treinamento de Redes Neurais
+(Em andamento)
+# 📊 Criação de Dataset para Treinamento de Redes Neurais (dataset concluido)
 
 Este repositório faz parte das atividades do **Bootcamp de Machine Learning** e tem como objetivo primeiramente a **criação de um dataset personalizado**, que será utilizado ao longo da trilha em diferentes projetos de aprendizado de máquina.
 
