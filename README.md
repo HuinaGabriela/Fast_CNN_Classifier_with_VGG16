@@ -1,6 +1,8 @@
 ## Sobre o Projeto
 
-Este projeto demonstra o uso de transferência de aprendizado para construir um classificador de imagens eficiente a partir de um conjunto de dados relativamente pequeno. Utilizamos o modelo pré-treinado VGG16, removendo sua camada de saída original e adicionando um novo módulo de classificação para as classes específicas do problema.
+Este projeto treina um modelo de inteligência artificial para classificar imagens com poucas amostras, usando um modelo pronto como base. É uma forma eficiente de ensinar a máquina a reconhecer imagens sem começar do zero.
+
+O projeto demonstra o uso de transferência de aprendizado para construir um classificador de imagens eficiente a partir de um conjunto de dados relativamente pequeno. Utilizamos o modelo pré-treinado VGG16, removendo sua camada de saída original e adicionando um novo módulo de classificação para as classes específicas do problema.
 
 As camadas convolucionais do modelo base são congeladas inicialmente para extrair características, enquanto treinamos o novo classificador. Em seguida, aplicamos ajuste fino (fine-tuning) nas últimas camadas para aprimorar a precisão do modelo.
 
@@ -94,6 +96,9 @@ Ajuste fino (fine-tuning): Treinar algumas camadas do modelo base com taxa de ap
 
 ## 📌 Links Úteis
 
+- https://www.tensorflow.org/datasets/catalog/cats_vs_dogs?hl=pt-br
+- https://colab.research.google.com/github/kylemath/ml4a-guides/blob/master/notebooks/transfer-learning.ipynb#scrollTo=VWWN-FPLYoZs
+
 📘 **Introdução para à Computação Bioinspirada:**
 - https://homepages.dcc.ufmg.br/~glpappa/cverao/CursoVerao-Parte1.pdf  
 - https://www.inf.ufpr.br/aurora/disciplinas/topicosia2/aulas/aula1.pdf  
@@ -104,4 +109,3 @@ Ajuste fino (fine-tuning): Treinar algumas camadas do modelo base com taxa de ap
 
 🧠 **Redes Neurais Artificiais:**
 - https://www.inf.ufsc.br/~j.barreto/tutoriais/Survey.pdf
-
