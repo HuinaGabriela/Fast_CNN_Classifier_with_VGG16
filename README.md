@@ -33,6 +33,55 @@ dataset/
 ```
 ---
 
+## 📘 Diagrama de Atividades
+```
+[Início]
+  |
+  v
+[Carregar e preparar conjunto de dados de imagens]
+  |
+  v
+[Importar modelo VGG16 sem a camada de classificação final]
+  |
+  v
+[Acoplar um novo módulo de classificação ao modelo base]
+  |
+  v
+[Congelar as camadas convolucionais do modelo base]
+  |
+  v
+[Compilar o modelo]
+  |
+  v
+[Treinar somente o novo módulo de classificação]
+  |
+  v
+[Descongelar as últimas camadas do modelo base (opcional)]
+  |
+  v
+[Realizar ajuste fino]
+  |
+  v
+[Avaliar desempenho final]
+  |
+  v
+[Salvar modelo treinado]
+  |
+  v
+[Fim]
+```
+📝 Explicações rápidas dos termos técnicos:
+
+Modelo base (backbone): Parte da rede pré-treinada (como VGG16) usada para extração de características.
+
+Módulo de classificação: Novo conjunto de camadas adicionadas para adaptar o modelo à nova tarefa.
+
+Congelar: Impedir que os pesos sejam atualizados durante o treinamento.
+
+Ajuste fino (fine-tuning): Treinar algumas camadas do modelo base com taxa de aprendizado pequena para adaptar à nova tarefa.
+
+---
+
 ## 📌 Links Úteis
 
 📘 **Introdução para à Computação Bioinspirada:**
@@ -45,5 +94,4 @@ dataset/
 
 🧠 **Redes Neurais Artificiais:**
 - https://www.inf.ufsc.br/~j.barreto/tutoriais/Survey.pdf
-
 
