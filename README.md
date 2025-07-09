@@ -1,4 +1,14 @@
-(Em andamento)
+## Sobre o Projeto
+
+Este projeto demonstra o uso de transferência de aprendizado para construir um classificador de imagens eficiente a partir de um conjunto de dados relativamente pequeno. Utilizamos o modelo pré-treinado VGG16, removendo sua camada de saída original e adicionando um novo módulo de classificação para as classes específicas do problema.
+
+As camadas convolucionais do modelo base são congeladas inicialmente para extrair características, enquanto treinamos o novo classificador. Em seguida, aplicamos ajuste fino (fine-tuning) nas últimas camadas para aprimorar a precisão do modelo.
+
+O desenvolvimento foi realizado com as bibliotecas TensorFlow e Keras, utilizando o ambiente colaborativo do Google Colab para acelerar o treinamento. Os dados foram gerenciados e disponibilizados via Kaggle, facilitando o acesso e a organização do conjunto de imagens.
+
+Ao final, o modelo treinado é avaliado, validado e salvo para futuras inferências.
+
+
 # 📊 Criação de Dataset para Treinamento de Redes Neurais (dataset concluido)
 
 Este repositório faz parte das atividades do **Bootcamp de Machine Learning** e tem como objetivo primeiramente a **criação de um dataset personalizado**, que será utilizado ao longo da trilha em diferentes projetos de aprendizado de máquina.
