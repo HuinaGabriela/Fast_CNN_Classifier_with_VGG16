@@ -68,7 +68,7 @@ dataset/
 [Treinar somente o novo módulo de classificação]
   |
   v
-[Descongelar as últimas camadas do modelo base (opcional)]
+[Descongelar as últimas camadas do modelo base]
   |
   v
 [Realizar ajuste fino]
