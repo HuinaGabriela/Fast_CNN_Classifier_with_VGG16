@@ -11,7 +11,7 @@ O desenvolvimento foi realizado com as bibliotecas TensorFlow e Keras, utilizand
 Ao final, o modelo treinado é avaliado, validado e salvo para futuras inferências.
 
 
-# 📊 Criação de Dataset para Treinamento de Redes Neurais (dataset concluido)
+# 📊 Criação de Dataset para Treinamento de Redes Neurais
 
 Este repositório faz parte das atividades do **Bootcamp de Machine Learning** e tem como objetivo primeiramente a **criação de um dataset personalizado**, que será utilizado ao longo da trilha em diferentes projetos de aprendizado de máquina.
 
